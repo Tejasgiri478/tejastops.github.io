@@ -255,6 +255,7 @@ footer {
 
     .fullscreen-image img {
         height: auto;
+        max-height: 400px;
     }
 
     .form-group {
