@@ -254,8 +254,12 @@ footer {
     }
 
     .fullscreen-image img {
+        width: 100%;
         height: auto;
-        max-height: 400px;
+    }
+
+    .fullscreen-image {
+        height: calc(100vh - 45px); /* Adjust for the fixed navbar */
     }
 
     .form-group {
